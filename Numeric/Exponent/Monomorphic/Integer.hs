@@ -1,5 +1,5 @@
 -- |
--- Module      : Numeric.Exponent.Monomorphic.Int
+-- Module      : Numeric.Exponent.Monomorphic.Integer
 -- Copyright   : (c) Justus Sagemüller 2016
 -- License     : GPL v3
 -- 
@@ -9,17 +9,17 @@
 -- 
 
 
-module Numeric.Exponent.Monomorphic.Int where
+module Numeric.Exponent.Monomorphic.Integer where
 
 
 import Prelude hiding ((^), (^^))
 import qualified Prelude
 
 {-# INLINE (^) #-}
-(^) :: Num a => a -> Int -> a
+(^) :: Num a => a -> Integer -> a
 (^) = (Prelude.^)
 
 {-# INLINE (^^) #-}
-(^^) :: Fractional a => a -> Int -> a
+(^^) :: Fractional a => a -> Integer -> a
 (^^) = (Prelude.^^)
 
