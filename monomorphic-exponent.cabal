@@ -3,8 +3,11 @@
 
 name:                monomorphic-exponent
 version:             0.1.0.0
-synopsis:            Remove the need of the exponentiation operator to default-guess the type
--- description:         
+synopsis:            Remove the need default-guess the type of exponents
+description:         This tiny package does nothing but restrict Haskell's
+                     power operators to a less general signature. See the
+                     <https://github.com/leftaroundabout/monomorphic-exponent/blob/master/README.md README>
+                     for why this can make sense.
 homepage:            https://github.com/leftaroundabout/monomorphic-exponent
 license:             GPL-3
 license-file:        LICENSE
